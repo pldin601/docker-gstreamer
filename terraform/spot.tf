@@ -4,10 +4,10 @@ variable "environment" {
     instance_type : string
   }))
   default = {
-    amd64 = {
-      arch : "x86_64",
-      instance_type : "c5.xlarge"
-    },
+#    amd64 = {
+#      arch : "x86_64",
+#      instance_type : "c5.xlarge"
+#    },
     arm64 = {
       arch : "arm64",
       instance_type : "c6g.xlarge"
